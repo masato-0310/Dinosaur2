@@ -121,6 +121,45 @@ footer {
   color: #888;
 }
 
+/* タグライン スマホ用設定 */
+
+@media screen and (max-width: 768px) {
+  .button-grid {
+    grid-template-columns: 1fr; /* スマホは1列表示 */
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .nav-button {
+    padding: 1.2rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-button img {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 0.5rem;
+  }
+
+  .back-to-top {
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+}
+
+
 /* 恐竜カードの横並びレイアウト */
 .dino-card {
   display: flex;
