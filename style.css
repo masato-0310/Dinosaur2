@@ -125,7 +125,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .button-grid {
-    grid-template-columns: 2fr; /* スマホは22列表示 */
+    grid-template-columns: 1fr 1fr; /* スマホは22列表示 */
     gap: 1rem; /* スマホ用の間隔 */
     width: 95%; /* スマホ用の幅 */
     margin: 0 auto; /* 中央寄せ */
